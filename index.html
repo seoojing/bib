@@ -995,14 +995,12 @@ a4 { font-weight:bold;
 	<div id="logo">
 		<img src="logo.png">
 	</div>
-
 <a href="https://seoojing.github.io/menu/">
 
-		
 	<div id="book">
 		<img src="book3.png">
 	</div>
-		</a>	
+</a>
 	<div id="map">
 		<img src="map.png">
 	</div>
@@ -1033,6 +1031,9 @@ a4 { font-weight:bold;
 		<img src="mimi.png">
 	</div>
 
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 
 <audio id="walk">
@@ -1080,25 +1081,31 @@ a4 { font-weight:bold;
 	</audio>
 	
 <!--방향 -->
+<a href="https://seoojing.github.io/oha/">
 	<div id="rig">
 		<img src="orhere.png">
 	</div>
+</a>
+
 	<a href="https://seoojing.github.io/huk/">
 	<div id="rig2">
 		<img src="orhere.png">
 	</div>	
 </a>	
+<a href="https://seoojing.github.io/bab/">
 	<div id="turn">
 		<img src="turn.png">
 	</div>
+</a>
 	<div id="turn2">
 		<img src="turn.png">
 	</div>
 
-
+<a href="https://seoojing.github.io/tat/">
 	<div id="fronts">
 		<img src="there.png">
 	</div>
+</a>
 	<div id="fronts2">
 		<img src="there.png">
 	</div>
@@ -1425,7 +1432,8 @@ window.onmousemove = function(){
 	content4_img.onclick = function(){
 		door.play();
 			}
-
+	soun11.onclick = function(){
+		beep.play();}	
 	smart.onclick = function(){
 		if (on) {touch.play();
 			tada.style.display = "inline";
